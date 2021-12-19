@@ -26,7 +26,7 @@ class CLOCK:
 			background = '#CCCCFF', activebackground = '#FFBF00', compound = LEFT)
 		self.return_btn_render = self.canvas.create_window((100, 50), window = self.return_btn)
 
-		self.border = Label(self.canvas, bg = '#DE3163', width = 80, height = 11)
+		self.border = Label(self.canvas, bg = '#DE3163', width = 83, height = 11)
 		self.border_render = self.canvas.create_window((500, 180), window = self.border)
 		self.create_clock()
 		self.create_alarm()

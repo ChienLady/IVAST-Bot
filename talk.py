@@ -22,7 +22,7 @@ class TALK:
 		self.a = Image.open(os.path.join(os.path.join('Assets', 'Walk'), 'return.png'))
 		self.a = self.a.resize((int(self.a.size[0] / 12), int(self.a.size[1] / 12)), Image.ANTIALIAS)
 		self.a.save(os.path.join(os.path.join(os.path.join('Assets', 'Walk'), 'return1.png')))
-		self.return_img = ImageTk.PhotoImage(file = os.path.join(os.path.join('Assets', 'Walk'), 'return1.png'))
+		self.return_img = ImageTk.PhotoImage(file = os.path.join(os.path.join('Assets', 'Talk'), 'return1.png'))
 		self.return_btn = Button(self.master, image = self.return_img, text = ' Return ',
 			command = self.return_root, font = (('Arial'), 15, 'bold'),
 			background = '#CCCCFF', activebackground = '#FFBF00', compound = LEFT)
